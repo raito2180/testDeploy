@@ -4,7 +4,7 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: db
+  host: dpg-cnm8g7mv3ddc73fihe50-a
   username: root
   password: password
 
@@ -18,8 +18,7 @@ test:
 
 production:
   <<: *default
-  host: dpg-cnm8g7mv3ddc73fihe50-a
-  database: my_app_production_xwag
-  username: my_app_production_xwag_user
+  database: my_app_production
+  username: my_app
   password: <%= ENV["MY_APP_DATABASE_PASSWORD"] %>
 
