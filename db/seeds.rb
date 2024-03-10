@@ -7,3 +7,11 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+10.times do |index|
+  Task.create!(
+    title: "タイトル#{index + 1}",
+    content: "内容#{index + 1}",
+    is_done: false
+  )
+end
