@@ -19,6 +19,6 @@ test:
 production:
   <<: *default
   host: dpg-cnm8g7mv3ddc73fihe50-a
-  database: my_app_production
+  database: my_app_production_xwag
   username: my_app_production_xwag_user
   password: <%= ENV["MY_APP_DATABASE_PASSWORD"] %>
