@@ -3,7 +3,7 @@ services:
   db:
     image: postgres:15.5 # バージョンを15.5にしています
     environment:
-      POSTGRES_DB: app_production
+      POSTGRES_DB: app_development
       POSTGRES_USER: root
       POSTGRES_PASSWORD: password
     volumes:
