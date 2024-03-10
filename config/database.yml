@@ -12,9 +12,13 @@ development:
   <<: *default
   database: my_app_development
   host: dpg-cnm8g7mv3ddc73fihe50-a
+  username: root
+  password: password
+
 test:
   <<: *default
   database: my_app_test
+
 production:
   <<: *default
   database: my_app_production
