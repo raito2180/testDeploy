@@ -11,7 +11,6 @@ default: &default
 development:
   <<: *default
   database: my_app_development
-  username: root
   host: dpg-cnm8g7mv3ddc73fihe50-a
 test:
   <<: *default
