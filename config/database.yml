@@ -5,8 +5,8 @@ default: &default
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   host: dpg-cnm8g7mv3ddc73fihe50-a
-  username: root
-  password: password
+  username: my_app_production_xwag_user
+  password: 1jLKBc5hWUDJ2YWGVcbzIPS0QXo0qvZZ
 
 development:
   <<: *default
